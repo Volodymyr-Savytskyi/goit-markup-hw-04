@@ -2,10 +2,9 @@
 --color-primary: #434455;
 --color-secondary: #2E2F42;
 --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
---transition: 1000ms linear;
+--transition: 250ms linear;
 --background-brand: #4D5AE5;
---background-hover: tomato;
-/* --background-hover: #404BBF; */
+--background-hover: #404BBF;
 }
 
 body {
