@@ -594,6 +594,8 @@ address{
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
+    transition: var(--transition);
+    transition-timing-function: var(--transition-timing-function);
 }
 
 .filter-btn:hover, .filter-btn:focus{
