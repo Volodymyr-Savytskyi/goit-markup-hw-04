@@ -103,7 +103,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    transition: color var(--transition-timing-function);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover, .nav-link:focus {
     color: var(--background-hover)
@@ -112,7 +112,7 @@ address{
 
 .adr-link {
     color: var(--color-primary);
-    transition: color var(--transition-timing-function);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adr-link:hover, .adr-link:focus {
@@ -350,7 +350,7 @@ address{
     justify-content: center;
     background-color: var(--background-brand);
     border-radius: 50%;
-    transition: var(--transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-list {
@@ -437,6 +437,7 @@ address{
     justify-content: center;
     align-items: center;
     color: #8E8F99;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-item {
@@ -448,20 +449,19 @@ address{
 .custom-item:hover,
 .custom-item:focus {
     border-color: var(--background-hover);
-    transition: var(--transition);
-    transition-timing-function: var(--transition-timing-function);
+    
 }
 
 .custom-svg {
     width: 104px;
     height: 56px;
     fill: #8E8F99;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-link:hover .custom-svg,  .custom-link:focus .custom-svg{
     fill: var(--background-hover);
-    transition: var(--transition);
-    transition-timing-function: var(--transition-timing-function);
+    border-color: #404bbf;
 }
 
 /* ---------------------FOOTER-------------------- */
@@ -559,29 +559,12 @@ address{
     background-color: #31D0AA;
 }
 
-.footer-twit {
+.footer-icons {
     height: 16px;
     width: 16px;
     fill: #f4f4fd;
 }
 
-.footer-inst {
-    height: 16px;
-    width: 16px;
-    fill: #f4f4fd;
-}
-
-.footer-fb {
-    height: 16px;
-    width: 16px;
-    fill: #f4f4fd;
-}
-
-.footer-in {
-    height: 16px;
-    width: 16px;
-    fill: #f4f4fd;
-}
 
 
 /* ===================PORTFOLIO=================== */
@@ -617,7 +600,7 @@ address{
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
-    transition-timing-function: var(--transition-timing-function);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover, .filter-btn:focus{
@@ -651,7 +634,7 @@ address{
 }
 
 .section-item:hover .portfolio-item-text {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 .portfolio-item-block {
@@ -671,12 +654,11 @@ address{
     left: 0;
     top: 0;
     background-color: var(--background-brand);
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform var(--transition);
-    transition-timing-function: var(--transition-timing-function);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-title {
@@ -744,13 +726,14 @@ address{
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .close-modal:hover,
 .close-modal:focus {
     background-color: #404bbf;
     border: none;
-
+    fill: #FFFFFF;
 }
 
 .close-svg {
@@ -761,10 +744,10 @@ address{
     transition: fill var(--transition);
 }
 
-.close-svg:hover,
+/* .close-svg:hover,
 .close-svg:focus {
     fill: #FFFFFF;
-}
+} */
 
 .is-hidden {
     visibility: hidden;
