@@ -424,6 +424,11 @@ address{
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.custom-link:focus,
+.custom-link:hover {
+    border-color: #404bbf;
+}
+
 .custom-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
@@ -445,8 +450,7 @@ address{
 
 .custom-link:hover .custom-svg, 
 .custom-link:focus .custom-svg{
-    fill: var(--background-hover);
-    border-color: #404bbf;
+    fill: var(--background-hover);    
 }
 
 /* ---------------------FOOTER-------------------- */
@@ -568,7 +572,7 @@ address{
 }
 
 .filter-item {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -616,6 +620,7 @@ address{
 
 .item-link:hover,
 .item-link:focus {
+    transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
