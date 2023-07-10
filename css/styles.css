@@ -83,7 +83,6 @@ address{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .header-span{
@@ -122,20 +121,25 @@ address{
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
+    max-width: 1158px;
+    border-bottom: 1px solid #E7E9FC;
+    padding: 24px 16px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
     
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    height: 100%;
+    /* border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding: 24px 141px;
+    padding: 24px 141px; */
 
 }
     
 .header-list {
     display: flex;
     align-items: center;
-    margin-right: auto;
+    /* margin-right: auto; */
     gap: 40px;
 }
 
@@ -163,12 +167,14 @@ address{
     display: flex;
     align-items: center;
     gap: 40px;
+    /* margin-left: auto; */
 }
     
 .nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* margin-right: auto; */
 }
 
 
@@ -184,6 +190,7 @@ address{
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .solution-title {
@@ -196,8 +203,7 @@ address{
     display: flex;
     max-width: 496px;
     padding-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .solution-btn {
@@ -225,9 +231,9 @@ address{
 }
 
 .section-container {
-    align-items: center;
+    /* align-items: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 /* ................SECTION:ABOUT..............*/
@@ -359,8 +365,6 @@ address{
     justify-content: center;
     gap: 24px;
     margin: 0 auto;
-    margin-bottom: 32px;
-    
 }
 
 .card-item {
@@ -528,11 +532,7 @@ address{
 
 .footer-list {
     display: flex;
-    justify-content: center;
     gap: 16px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-
 }
 
 .footer-item {
@@ -549,8 +549,8 @@ address{
 }
 
 .footer-icons {
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
     fill: #f4f4fd;
 }
 
