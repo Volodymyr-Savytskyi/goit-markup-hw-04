@@ -521,7 +521,6 @@ address{
 .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: center;
 }
 
 .footer-soc {
@@ -660,7 +659,6 @@ address{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-left: 16px;
     margin-bottom: 8px;
     }
 
@@ -668,7 +666,6 @@ address{
 .item-text {
     color: #434455;
     background-color: #fff;
-    padding-left: 16px;
 }
 
 .item-text-box {
