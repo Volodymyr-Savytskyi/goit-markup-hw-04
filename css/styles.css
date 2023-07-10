@@ -122,7 +122,6 @@ address{
     display: flex;
     align-items: center;
     max-width: 1158px;
-    border-bottom: 1px solid #E7E9FC;
     padding: 24px 16px;
     margin: 0 auto;
     justify-content: space-between;
@@ -130,9 +129,8 @@ address{
     
 .header {
     height: 100%;
-    /* border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding: 24px 141px; */
 
 }
     
